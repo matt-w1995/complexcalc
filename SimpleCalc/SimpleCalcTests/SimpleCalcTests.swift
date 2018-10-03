@@ -26,6 +26,7 @@ class SimpleCalcTests: XCTestCase {
         XCTAssert(calc.calculate(["2", "*", "2"]) == 4)
         XCTAssert(calc.calculate(["2", "/", "2"]) == 1)
         XCTAssert(calc.calculate(["2", "%", "2"]) == 0)
+        
     }
     
     func testCountOps() {
